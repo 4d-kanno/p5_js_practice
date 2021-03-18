@@ -41,19 +41,19 @@ rectMode(RADIUS)
 rect(c1, c1, w/2, h/2)
 */
 
-// function setup() {
-//     createCanvas(480, 240);
-//     background('skyblue');
+function setup() {
+    createCanvas(480, 240);
+    background('skyblue');
 
-//     // rect(50, 50, 150, 100);
-//     // rect(width/2, height/2, 150, 100);
-//     rectMode(CENTER)
-//     rect(width/2, height/2, 150, 100);
-// }
+    // rect(50, 50, 150, 100);
+    // rect(width/2, height/2, 150, 100);
+    rectMode(CENTER)
+    rect(width/2, height/2, 150, 100);
+}
 
-// function draw() {
-//     //そのあと繰り返し実行される処理
-//     background(0);
-//     rect(x, 40, 50, 50);
-//     x++;
-// }
+function draw() {
+    //そのあと繰り返し実行される処理
+    background(0);
+    rect(x, 40, 50, 50);
+    x++;
+}
